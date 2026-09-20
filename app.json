@@ -18,7 +18,11 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "experiments": {
+      "baseUrl": "/lang-translator-app"
     }
   }
 }
